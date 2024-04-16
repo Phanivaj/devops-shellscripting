@@ -2,8 +2,8 @@
 
 echo "enter first number::"
 read fnum
-enter "second number::"
+echo enter "second number::"
 read snum
-enter "expression::"
+echo enter "expression::"
 read expr
 your result is : $(($fnum$expr$snum))
